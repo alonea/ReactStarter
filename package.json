@@ -1,0 +1,35 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "Starter Kit For React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "dev": "webpack-dev-server --host 0.0.0.0 --port 8000  --mode=development",
+    "build:local": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonea/React-Starter.git"
+  },
+  "author": "Rajesh Alonea (alonearajesh@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alonea/React-Starter/issues"
+  },
+  "homepage": "https://github.com/alonea/React-Starter#readme",
+  "dependencies": {
+    "@types/react": "^16.3.5",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.8.1",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.2"
+  }
+}
